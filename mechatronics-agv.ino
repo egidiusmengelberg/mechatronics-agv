@@ -2,7 +2,7 @@
 #include "RunningAverage.h"
 
 RunningAverage smoother(10);
-
+//Je moeder
 // address we will assign if dual sensor is present
 #define LOX1_ADDRESS 0x30
 #define LOX2_ADDRESS 0x31
