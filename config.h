@@ -10,6 +10,9 @@
 #define STEPPER_L_3_PIN 7
 #define STEPPER_L_4_PIN 8
 
+#define STEPPER_MAX_V 15.0
+#define STEPPER_MAX_A 20.0
+
 // address we will assign if dual sensor is present
 #define LOX1_ADDRESS 0x30
 #define LOX2_ADDRESS 0x31
