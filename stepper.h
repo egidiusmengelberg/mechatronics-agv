@@ -1,13 +1,6 @@
-#include <AccelStepper.h>
+#include <TinyStepper_28BYJ_48.h>
 #include "config.h"
 
-AccelStepper leftStepper;
-AccelStepper rightStepper;
-
 void initStepper();
-void prepareLeftStepper();
-void prepareRightStepper();
-
-void runStepper();
-
-void stopStepper();
+void runStepper(int dist, float dir);
+bool detectedFront();
